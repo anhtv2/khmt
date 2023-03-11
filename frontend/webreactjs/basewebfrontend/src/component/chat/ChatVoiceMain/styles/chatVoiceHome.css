@@ -1,0 +1,210 @@
+.voice-chat-main {
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  margin-top: 16px;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+  height: 80vh;
+}
+
+.title-meet {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 4px 15px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.334;
+}
+
+.icon-meet {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  font-size: 1.25rem;
+  align-items: center;
+  user-select: none;
+  border-radius: 50%;
+  justify-content: center;
+  color: #fafafa;
+  background: rgb(255, 87, 34);
+}
+
+.title-meet-row {
+  display: flex;
+  padding: 15px 15px;
+}
+
+.meet__color-red {
+  color: red;
+}
+
+.card-meet-row {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: max-content max-content auto;
+  font-size: 1.15rem;
+  margin: 0 30px;
+}
+
+.card-meet {
+  padding: 15px 25px 15px 25px;
+  border-bottom: 2px solid rgb(226, 226, 226);
+}
+
+.selected-card {
+  border-bottom: 2px solid #1976d2;
+  color: #1976d2;
+}
+
+.card-name {
+  cursor: pointer;
+}
+
+.card-name:hover {
+  color: #1976d2;
+}
+
+#button-meet-now {
+  position: absolute;
+  bottom: calc(20vh - 80px);
+}
+
+.meet-code-input {
+  width: 30vw;
+  margin: 30px 0;
+}
+
+.MuiTypography-root.meet-code-label {
+  margin-bottom: 15px;
+}
+
+.copy-meet-code {
+  width: 25px;
+  height: 25px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+.copy-meet-code:hover {
+  fill: rgba(109, 109, 109, 0.87);
+}
+
+.home-meet-content {
+  padding: 30px;
+  height: calc(100% - 210px);
+  overflow-y: auto;
+  scrollbar-width: 5px;
+  scrollbar-color: #999999 #d3d3d3;
+}
+
+.home-meet-content::-webkit-scrollbar {
+  width: 5px;
+}
+
+.home-meet-content::-webkit-scrollbar-track {
+  background-color: #d3d3d3;
+  border-radius: 8px;
+}
+
+.home-meet-content::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #999999;
+}
+
+#schedule-meet-btn {
+  margin-top: 20px;
+}
+
+.voice-chat-main .Mui-expanded.MuiAccordionSummary-content {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  margin-bottom: 10px;
+}
+
+.meet-card-content {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.meet-card-content__name {
+  font-size: 16px;
+}
+
+.meet-card-content__close-in {
+  margin-left: 20px;
+}
+
+.host-modal {
+  width: 50% !important;
+  max-width: 600px;
+  position: relative !important;
+}
+
+.host-modal .MuiButton-root {
+  width: 100%;
+}
+
+.host-modal .MuiButton-textPrimary {
+  border: 1px solid rgb(92, 92, 92);
+}
+
+.host-modal .invite-friend {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.host-modal-title {
+  text-align: center;
+}
+
+.host-modal-invited-friends-title {
+  font-size: 16px;
+}
+
+.host-modal-invited-friends {
+  max-height: 300px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 5px 0 20px !important;
+}
+
+.host-modal-no-invite {
+  text-align: center;
+  padding: 30px 0 !important;
+}
+
+.host-model-extend {
+  box-shadow: none !important;
+}
+
+.host-model-extend.MuiAccordion-root:before {
+  background-color: white !important;
+}
+
+.host-modal .MuiAccordionSummary-root {
+  padding: 0;
+  display: inline-flex;
+  height: 40px;
+  min-height: unset;
+}
+
+.host-modal .MuiAccordionSummary-content {
+  margin: 6px 0;
+}
+
+.host-modal .MuiTypography-body1 {
+  font-size: 12px;
+  color:rgb(92, 92, 92);  
+}
+
+.host-modal .MuiAccordionSummary-expandIcon {
+  padding: 6px;
+}
+
+.host-modal .delete {
+  background-color: rgb(219, 0, 0);
+}
+
+.host-modal .delete:hover {
+  background-color: rgb(219, 0, 0);
+}
